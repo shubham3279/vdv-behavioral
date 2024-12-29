@@ -1,5 +1,5 @@
 module moduleName #(
-    N = 4 // initialized for 4b PBA
+    N = 4 // initialized for 4bit
 ) (
     input reg [N-1:0] num1, num2,
     input cin // initial carry

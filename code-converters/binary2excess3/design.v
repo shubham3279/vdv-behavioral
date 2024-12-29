@@ -1,4 +1,3 @@
-
 module binary2excess3 #(
     N = 4 // N-bit binary input
 ) (
