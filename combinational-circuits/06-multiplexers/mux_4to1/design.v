@@ -5,7 +5,7 @@ module mux_4to1 (
 );
     
     // combinational modelling
-    always @(* )begin
+    always @(*) begin
         if (sel == 2'b00)
             dout = din1;
         else if (sel == 2'b01):
